@@ -44,14 +44,14 @@ public class DataTypes {
 
     }
 
-    // 1. Primitive Data Types
+    // 1. Primitive Data Types --------------
     public static void primitiveDataTypes() {
 
         // 1. Integer Data Types
         byte byteVar = 100;
         short shortVar = 2_000;
         int intVar = 30_000;
-        long longVar = 4_00_000L;
+        long longVar = 4_00_000L; // using underscore for readability
         float floatVar = 5_00_000.0f;
         double doubleVar = 10_00_000.0;
 
@@ -68,7 +68,7 @@ public class DataTypes {
 
     }
 
-    // 2. Reference Data Types
+    // 2. Reference Data Types --------------
     public static void referenceDataTypes() {
 
         // 1. String
@@ -100,5 +100,27 @@ public class DataTypes {
          */
 
     }
+
+    /* ------------------------- Literals ------------------------- */
+    // Def: A literal represents a value that is stored into a variable, constant,
+    // or field.
+
+    // 1. Integer Literals
+    int myIntegerValue = 10;
+
+    // 2. Character Literals
+    char myCharacterValue = 'A';
+
+    // 3. Floating Point Literals
+    float myFloatValue = 10.5f;
+
+    // 4. Boolean Literals
+    boolean myBooleanValue = true;
+
+    // 5. String Literals
+    String myStringValue = "Hello, World!";
+
+    // 6. Null Literals
+    String myNullValue = null;
 
 }
